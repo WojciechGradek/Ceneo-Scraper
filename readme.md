@@ -29,5 +29,21 @@ div.review-feature__title--positives ~ div.review-feature__item
 `button.vote-no["data-total-vote]`
 `button.vote-no > span`
 
+3. Pobranie składowych opinii do pojedyńczych zmiennych
+
+## Etap 2 - Pobranie wszystkich opinii z pojedyńczej strony
+1. Zdefiniowanie słownika do przechowywania składowych
+2. Zdefiniowanie listy do przechowywania słowników z opiniami
+3. Dodanie pętli wykonującej operację ekstrakcji na wszystkich opiniach z pojedyńczej strony
+
+## Etap 3 - Pobranie wszystkich opinii o produkcie
+1. Dodanie pętli wykonującej operację ekstrakcji opinii z wszystkich stron z opiniami dla danego produktu
+2. Wczytywanie kodu produktu z standardowego wejścia
+3. Parametryzacja adresy strony z opiniami
+4. Eksport opinii o produkcjie do pliku .json
+
+## Etap 4 - Analiza pobranych opinii
+
+
 
 
